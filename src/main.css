@@ -9,6 +9,11 @@
 
 body {
     min-width: 320px;
+    background-image: url('/src/assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 section {
