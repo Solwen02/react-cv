@@ -1,0 +1,21 @@
+section.experience {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.experience article {
+    width: 100%;
+    text-decoration: underline;
+    text-decoration-color: rgb(41, 111, 180);
+    text-decoration-thickness: 2px;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 920px) {
+    section.experience article {
+        font-size: 1.2rem;
+    }
+}

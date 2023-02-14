@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+}
+
+body {
+    min-width: 320px;
+}
+
+section {
+    padding-left: 80px;
+    padding-right: 20px;
+    min-height: 100vh;
+}
+
+
+@media screen and (min-width: 920px) {
+    section {
+        padding-left: 270px;
+    }
+}

@@ -1,0 +1,36 @@
+  section.home {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-top: 40px;
+      margin-left: 10px;
+  }
+
+  section.home .home__image {
+      text-align: center;
+  }
+
+  section.home .home__image img {
+      border-radius: 50%;
+      width: 150px;
+  }
+
+  section.home h3 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 20px 0;
+      color: rgb(41, 111, 180);
+  }
+
+  section.home p {
+      margin: 10px 0;
+      font-weight: 800;
+      text-decoration: underline;
+      font-size: 1.2rem;
+      margin-left: 20px;
+  }
+
+  section.home>article {
+      text-align: justify;
+      line-height: 1.5rem;
+  }
