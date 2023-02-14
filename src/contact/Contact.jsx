@@ -12,7 +12,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="form__row">
-                    <label htmlFor="email">Adresse Email</label>ù
+                    <label htmlFor="email">Adresse Email</label>
                     <div className="form__row__input">
                         <input type="email" name="email" id="email" placeholder="little.monster@gmail.com" />
                     </div>
