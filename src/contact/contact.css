@@ -20,7 +20,11 @@ section.contact form .form__row {
 }
 
 section.contact form .form__row label {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+}
+
+section.contact form .form__row label:hover {
+    margin-left: 20px;
 }
 
 section.contact form .form__row .form__row__input {
