@@ -2,23 +2,33 @@ section.experience {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+section.experience h2 {
+font-size: 2rem;
+margin-bottom: 60px;
+color: rgba(41, 145, 180, 0.845);
+text-decoration: underline double;
+text-decoration-color: white;
 }
 
 section.experience article {
+    border: 2px dashed white;
+    width: 25rem;
+    margin: auto;
+    margin-top: 10px;
+}
+
+section.experience p {
     width: 100%;
-    color: white;
-    text-shadow: 2px 2px 1px rgba(41, 145, 180, 0.845);
-    font-size: 1rem;
+    color: rgba(41, 145, 180, 0.845);
+    text-shadow: 2px 2px 1px white;
+    font-size: 1.5rem;
     padding: 10px 0;
 }
 
-section.experience article:nth-child(even) {
-    margin-left: 10px;
-}
-
-@media screen and (min-width: 920px) {
-    section.experience article {
-        font-size: 1.2rem;
-    }
+section.experience p:hover {
+    font-size: 1.3rem;
 }

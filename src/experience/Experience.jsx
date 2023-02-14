@@ -4,12 +4,15 @@ const Experience = () => {
 
     return (
         <section className="experience">
-            <article>Secrétaire</article>
-            <article>Responsable des équipes des portes</article>
-            <article>Gardienne de l'usine</article>
-            <article>Agent de la CDA</article>
-            <article>Miss Monstropolis de 1950</article>
-            <article>Bully de Bob Razowsky n°1</article>
+            <h2>Les nombreux jobs où j'excelle</h2>
+            <article>
+                <p>Secrétaire</p>
+                <p>Responsable des équipes des portes</p>
+                <p>Gardienne de l'usine</p>
+                <p>Agent de la CDA</p>
+                <p>Miss Monstropolis de 1950</p>
+                <p>Bully de Bob Razowsky n°1</p>
+            </article>
         </section>
     )
 }
